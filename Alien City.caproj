@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Alien City</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.aliencity</app-id>
+    <unique-id>16eqvxkbu3tzq</unique-id>
+    <saved-with-version>26500</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+    </used-plugins>
+    <used-behaviors />
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="spr_base" sid="141125774758095">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="669490294246461" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501253" original-source="E:\DEV\Documents\Técnico JD SENAC\Módulo 1\UC3\ConstructNaveAssets\spr_base.png">
+                        <collision-poly>
+                            <point x="0.100746" y="0.0676692" />
+                            <point x="0.5" y="0" />
+                            <point x="0.895522" y="0.0701754" />
+                            <point x="0.895522" y="0.498747" />
+                            <point x="0.966418" y="0.977444" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0298507" y="0.97995" />
+                            <point x="0.0970149" y="0.498747" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="spr_laser" sid="685133175246571">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="838978615619582" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.518519" original-source="E:\DEV\Documents\Técnico JD SENAC\Módulo 1\UC3\ConstructNaveAssets\spr_laser.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.407407" />
+                            <point x="0.826923" y="0.333333" />
+                            <point x="0.923077" y="0.481481" />
+                            <point x="0.826923" y="0.666667" />
+                            <point x="0.5" y="0.555556" />
+                            <point x="0.461538" y="0.481481" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="spr_missil" sid="678587428296177">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="123054418489290" speed="5">
+                    <frame duration="1" hotspotX="0.503356" hotspotY="0.529412" original-source="E:\DEV\Documents\Técnico JD SENAC\Módulo 1\UC3\ConstructNaveAssets\spr_missil.png">
+                        <collision-poly>
+                            <point x="0.0268456" y="0.235294" />
+                            <point x="0.496644" y="0.0588235" />
+                            <point x="0.966443" y="0.294118" />
+                            <point x="1" y="0.470588" />
+                            <point x="0.959732" y="0.647059" />
+                            <point x="0.496644" y="0.941176" />
+                            <point x="0.0201342" y="0.823529" />
+                            <point x="0" y="0.470588" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="spr_nave_alien_2" sid="537137277060962">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="760657681579798" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501299" original-source="E:\DEV\Documents\Técnico JD SENAC\Módulo 1\UC3\ConstructNaveAssets\spr_nave_alien_2.png">
+                        <collision-poly>
+                            <point x="0.302083" y="0.301299" />
+                            <point x="0.5" y="0.0155844" />
+                            <point x="0.723958" y="0.275325" />
+                            <point x="1" y="0.498701" />
+                            <point x="0.726563" y="0.727273" />
+                            <point x="0.5" y="0.979221" />
+                            <point x="0.304688" y="0.696104" />
+                            <point x="0" y="0.498701" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="spr_nave_alien_1" sid="290625736946403">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="226555845747487" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\DEV\Documents\Técnico JD SENAC\Módulo 1\UC3\ConstructNaveAssets\spr_nave1.png">
+                        <collision-poly>
+                            <point x="0.252768" y="0.297826" />
+                            <point x="0.5" y="0.382609" />
+                            <point x="0.939114" y="0.0717391" />
+                            <point x="0.942804" y="0.932609" />
+                            <point x="0.5" y="0.632609" />
+                            <point x="0.245387" y="0.71087" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="spr_reabastecimento" sid="247726183951698">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="676957135334963" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502326" original-source="E:\DEV\Documents\Técnico JD SENAC\Módulo 1\UC3\ConstructNaveAssets\spr_reabastecimento.png">
+                        <collision-poly>
+                            <point x="0.0347594" y="0.12093" />
+                            <point x="0.5" y="0.0139535" />
+                            <point x="0.981283" y="0.0651163" />
+                            <point x="0.893048" y="0.497674" />
+                            <point x="0.979947" y="0.930233" />
+                            <point x="0.5" y="0.981395" />
+                            <point x="0.0294118" y="0.897674" />
+                            <point x="0" y="0.497674" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="spr_vegetacao" sid="612795583640006">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="751378144531941" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\DEV\Documents\Técnico JD SENAC\Módulo 1\UC3\ConstructNaveAssets\spr_vegetacao_alien.png">
+                        <collision-poly>
+                            <point x="0.104693" y="0.369427" />
+                            <point x="0.5" y="0.242038" />
+                            <point x="0.922383" y="0.273885" />
+                            <point x="0.999097" y="0.5" />
+                            <point x="0.999097" y="0.996815" />
+                            <point x="0.000902527" y="0.996815" />
+                            <point x="0.000902527" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="spr_montanhas" sid="292542711723601">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="624500922524366" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503356" original-source="E:\DEV\Documents\Técnico JD SENAC\Módulo 1\UC3\ConstructNaveAssets\spr_montanhas.png">
+                        <collision-poly>
+                            <point x="0.00797872" y="0.0402685" />
+                            <point x="0.5" y="0" />
+                            <point x="0.992021" y="0.0402685" />
+                            <point x="0.99867" y="0.993289" />
+                            <point x="0.00132979" y="0.993289" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances />
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
